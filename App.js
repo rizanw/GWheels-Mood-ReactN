@@ -5,7 +5,7 @@ import { Camera } from 'expo-camera';
 const uriBase = 'https://<My Endpoint String>.com/face/v1.0/detect';
 const subscriptionKey = '<Subscription>';
 
-export default class GWheelsMood extends Component {
+export default class GrabMood extends Component {
   camera = null;
 
   state = {
@@ -128,7 +128,7 @@ export default class GWheelsMood extends Component {
             alignItems: 'center',
             backgroundColor: 'white'
           }}>
-          <Text style={{ color: 'green', fontSize: 24, fontWeight: 'bold' }} > GWheels Mood </Text>
+          <Text style={{ color: 'green', fontSize: 24, fontWeight: 'bold' }} > GrabMood for GrabWheels </Text>
           <Text style={{ color: 'green', fontSize: 18 }} > Be Happy and Healthy on The Wheels </Text>
         </View>
         <View style={{ flex: 1 }}>
